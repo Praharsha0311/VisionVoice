@@ -1,0 +1,39 @@
+.app {
+  text-align: center;
+  /* padding: 20px; */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 20px; */
+}
+
+.half {
+  width: 50%;
+  margin-bottom:20px;
+}
+
+.half img {
+  width: 80%;
+  height: auto;
+}
+
+.half div {
+  margin-top: 0px;
+}
+
+.half img[src*="localhost"] {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 150px;
+  height: auto;
+  z-index: 1000;
+  border-radius: 12px;
+}
